@@ -1,0 +1,34 @@
+# CREATE DATABASE DB_T05429_PEDRO_KLEIZ;
+
+# USE DB_T05429_PEDRO_KLEIZ;
+
+/* 
+
+SHOW DATABASES;
+
+CREATE TABLE NOVEL (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    NAME VARCHAR(128) NOT NULL,
+    YEAR YEAR,
+    GENRE VARCHAR(64),
+    AUDIENCE VARCHAR(32)
+);
+
+
+INSERT INTO NOVEL (NAME, YEAR, GENRE, AUDIENCE) VALUES
+('Avenida Brasil', 2012, 'Drama', '14 anos'),
+('O Clone', 2001, 'Romance', '12 anos'),
+('Senhora do Destino', 2004, 'Drama', '12 anos');
+*/
+
+# INSERT INTO NOVEL VALUES
+# (NULL, 'Chocolate com Pimenta', 2003, 'Comédia', 'Livre'),
+# (NULL, 'Laços de Família', 2000, 'Romance', '12 anos');
+
+# SELECT * FROM NOVEL;
+
+# SELECT NAME, YEAR FROM NOVEL;
+
+# SELECT * FROM NOVEL ORDER BY YEAR ASC;
+
+# SELECT * FROM NOVEL ORDER BY YEAR DESC;
